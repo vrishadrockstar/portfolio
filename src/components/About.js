@@ -6,9 +6,9 @@ export default function About() {
   return (
     <section id="about" className="mt-10 sh:h-700">
       <div className="about flex flex-col flex-initial md:flex-col items-center space-y-10 ">
-        <div id="avtar" className="grow shrink flex justify-center">
+        <div id="avtar" className="grow shrink flex justify-center w-1/4 h-1/4">
           <img
-            className="inline rounded-full w-1/4 object-scale-down"
+            className="inline rounded-full  object-contain"
             alt="hero"
             src={avtar}
           />
@@ -33,7 +33,7 @@ export default function About() {
 
         <div
           id="social"
-          className="flex flex-row flex-wrap md:flex-nowrap space-x-10 grow shrink items-end sh:justify-center"
+          className="flex flex-row flex-wrap space-x-10 grow shrink items-end sh:justify-center sh:space-x-5 sh:h-1/2"
         >
           <div className="">
             <SocialIcon
@@ -73,6 +73,15 @@ export default function About() {
               bgColor="#808080"
               fgColor="#FFFFFF"
               target="_blank"
+            />
+          </div>
+          <div className="">
+            <SocialIcon
+              url="https://marmikwords.blogspot.com/"
+              bgColor="#808080"
+              fgColor="#FFFFFF"
+              target="_blank"
+              network="google"
             />
           </div>
         </div>

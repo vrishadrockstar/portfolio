@@ -1,39 +1,33 @@
 const projects = [
   {
-    title: "React Reserve",
+    title: "Vaccination Tracker for Maharashtra",
     subtitle: "MERN Stack",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    description: "Vaccination Tracker for Maharashtra's all districts",
+    image: "project-1.png",
+    link: "https://linktr.ee/mhVaccinationTracker",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reedbarger.com",
-  },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://jsbootcamp.com",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://pythonbootcamp.com",
+    title: "NSE Option Chain Analysis",
+    subtitle: "MERN Stack",
+    description: "NSE Option Chain Analysis",
+    image: "project-2.png",
+    link: "https://option-chain-app.herokuapp.com/",
   },
 ];
 
-const skills = ["Node.js", "React.js", "MongoDB", "Express.js"];
+const skills = [
+  "Node.js",
+  "React.js",
+  "MongoDB",
+  "Express.js",
+  "PHP",
+  "MySQL",
+  "GIT",
+  "Docker",
+  "Ethereum",
+  "Solidity",
+  "Smart Contracts",
+];
 
 const testimonials = [
   {

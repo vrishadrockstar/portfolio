@@ -5,4 +5,6 @@
 .about {
   height: 75vh;
   margin-bottom: 10vh;
+  position: relative;
+  overflow: hidden;
 }
