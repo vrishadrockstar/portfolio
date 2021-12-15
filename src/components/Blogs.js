@@ -9,24 +9,24 @@ class Blogs extends React.Component {
 
     this.state = {
       blogs: [],
-      nextPageToken: "",
       DataisLoaded: false,
     };
   }
 
   componentDidMount() {
+    console.log(REACT_APP_BLOGGER_API_URL);
+
     fetch(`${REACT_APP_BLOGGER_API_URL + REACT_APP_BLOGGER_KEY}`)
       .then((res) => res.json())
       .then((json) => {
         this.setState({
           blogs: json.items,
           DataisLoaded: true,
-          nextPageToken: json.nextPageToken,
         });
       });
   }
   render() {
-    const { DataisLoaded, blogs, nextPageToken } = this.state;
+    const { DataisLoaded, blogs } = this.state;
     if (!DataisLoaded)
       return (
         <div>
