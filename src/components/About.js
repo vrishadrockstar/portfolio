@@ -45,7 +45,7 @@ export default function About() {
           </div>
           <div className="">
             <SocialIcon
-              url="https://www.linkedin.com/in/vrushali-joshi-969946aa/"
+              url="https://www.linkedin.com/in/vrushalisjoshi/"
               bgColor="#808080"
               fgColor="#FFFFFF"
               target="_blank"
