@@ -14,7 +14,6 @@ class Blogs extends React.Component {
   }
 
   componentDidMount() {
-    console.log(REACT_APP_BLOGGER_API_URL);
 
     fetch(`${REACT_APP_BLOGGER_API_URL + REACT_APP_BLOGGER_KEY}`)
       .then((res) => res.json())
@@ -82,7 +81,7 @@ class Blogs extends React.Component {
             <div className="">
               <h4 className="title-font text-lg font-medium text-white mb-3">
                 <a href="https://marmikwords.blogspot.com/" target="_blank">
-                  Read More Here..{" "}
+                  Read More Here..
                 </a>
               </h4>
             </div>
