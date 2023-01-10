@@ -7,6 +7,8 @@ import Skills from "./components/Skills";
 import Blogs from "./components/Blogs";
 import Photos from "./components/Photos";
 
+
+
 export default function App() {
   return (
     <div>
