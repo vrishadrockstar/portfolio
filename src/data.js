@@ -11,7 +11,8 @@ const projects = [
     subtitle: "MERN Stack",
     description: "NSE Option Chain Analysis",
     image: "project-2.png",
-    link: "https://option-chain-app.herokuapp.com/",
+//     link: "https://option-chain-app.herokuapp.com/",
+    link: "https://optionchain-app.netlify.app/",
   },
 ];
 
